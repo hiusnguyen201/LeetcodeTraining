@@ -1,1 +1,1 @@
-# LeetcodeTraining
+# Leetcode Training
