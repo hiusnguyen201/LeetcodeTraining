@@ -1,35 +1,33 @@
-# 3190. Find Minimum Operations to Make All Elements Divisible by Three
+# 1920. Build Array from Permutation
 
-You are given an integer array `nums`. In one operation, you can add or subtract 1 from **any** element of `nums`.
+Given an array of integers `nums`, return the number of **good pairs**.
 
-Return the **minimum** number of operations to make all elements of `nums` divisible by 3.
+A pair `(i, j)` is called good if `nums[i] == nums[j]` and `i < j`.
 
 ## Example 1:
 
-> **Input:** nums = [1,2,3,4]
+> **Input:** nums = [1,2,3,1,1,3]
 >
-> **Output:** 3
+> **Output:** 4
 >
-> **Explanation:**
->
-> All array elements can be made divisible by 3 using 3 operations:
->
-> - Subtract 1 from 1.
-> - Add 1 to 2.
-> - Subtract 1 from 4.
+> **Explanation:** There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
 
 ## Example 2:
 
-> **Input:** nums = [3,6,9]
+> **Input:** nums = [1,1,1,1]
+>
+> **Output:** 6
+>
+> **Explanation:** Each pair in the array are good.
+
+## Example 3:
+
+> **Input:** nums = [1,2,3]
 >
 > **Output:** 0
 
 ## Constraints:
 
-- `1 <= nums.length <= 50`
+- `1 <= nums.length <= 100`
 
-- `1 <= nums[i] <= 50`
-
-# Analyst
-
-- Find all element can't divisible by 3 because if the `num` of `nums` when using operations always divisible by 3.
+- `1 <= nums[i] <= 100`
