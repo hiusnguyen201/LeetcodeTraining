@@ -29,8 +29,8 @@ class Solution {
         int result2 = maxWidthOfVerticalArea1(points2);
         System.out.println(result2);
 
-        // Run Time: 41 ms
-        // Memory: 73.1 MB
+        // Run Time: 39 ms
+        // Memory: 72.9 MB
     }
 
 }
