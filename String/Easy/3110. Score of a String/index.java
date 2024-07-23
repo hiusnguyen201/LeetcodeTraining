@@ -19,7 +19,7 @@ class Solution {
         int result1 = scoreOfString(s1);
         System.out.println(result1);
 
-        // Example 1
+        // Example 2
         String s2 = "zaz";
         int result2 = scoreOfString(s2);
         System.out.println(result2);
