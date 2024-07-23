@@ -1,7 +1,7 @@
 # Leetcode Training
 
-| Problem | Note             |
-| ------- | ---------------- |
-| 1365    | Check solution 2 |
-| 1512    | Not the best     |
-| 914     | Not the best     |
+| Problem | Note             | Type  |
+| ------- | ---------------- | ----- |
+| 1365    | Check solution 2 | Array |
+| 1512    | Not the best     | Array |
+| 914     | Not the best     | Array |
